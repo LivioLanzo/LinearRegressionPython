@@ -16,7 +16,7 @@ xs = np.hstack((np.ones((xs.shape[0],1)), xs))
 L = LinearRegression()
 L.fit(xs, ys)
 
-print('Intercept Is {0}'.format(L.intercept))
+print('Intercept is {0}'.format(L.intercept))
 print('Coefficients are: {0}'.format(L.coefficients))
 print('R^2 is: {0:4f}'.format(L.R_squared(ys, xs)))
 
